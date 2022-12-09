@@ -13588,8 +13588,8 @@
   "SOURCE_NAME": "FrequenciaSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_TIPO_ANALISE",
-  "TARGET_NAME": "UBV_TIPO_ANALISE"
+  "TARGET": "SM_TIPO_ANALISE",
+  "TARGET_NAME": "SM_TIPO_ANALISE"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/GetLastVersion",
@@ -13660,8 +13660,8 @@
   "SOURCE_NAME": "Get_Centros",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_CENTRO",
-  "TARGET_NAME": "UBV_CENTRO"
+  "TARGET": "SM_CENTRO",
+  "TARGET_NAME": "SM_CENTRO"
 }, {
   "SOURCE_TYPE": "TQTA",
   "SOURCE": "SaoMartinho/global/Queries/IndicadorCurrentTagQuery",
@@ -13812,112 +13812,112 @@
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_AREA",
-  "TARGET_NAME": "UBV_AREA"
+  "TARGET": "SM_AREA",
+  "TARGET_NAME": "SM_AREA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_MATERIAL",
-  "TARGET_NAME": "UBV_MATERIAL"
+  "TARGET": "SM_MATERIAL",
+  "TARGET_NAME": "SM_MATERIAL"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_EQUIPAMENTO",
-  "TARGET_NAME": "UBV_EQUIPAMENTO"
+  "TARGET": "SM_EQUIPAMENTO",
+  "TARGET_NAME": "SM_EQUIPAMENTO"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_LOCAL_AMOSTRA",
-  "TARGET_NAME": "UBV_LOCAL_AMOSTRA"
+  "TARGET": "SM_LOCAL_AMOSTRA",
+  "TARGET_NAME": "SM_LOCAL_AMOSTRA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_EQUIPAMENTO_MATERIAL",
-  "TARGET_NAME": "UBV_EQUIPAMENTO_MATERIAL"
+  "TARGET": "SM_EQUIPAMENTO_MATERIAL",
+  "TARGET_NAME": "SM_EQUIPAMENTO_MATERIAL"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_ANALISE",
-  "TARGET_NAME": "UBV_ANALISE"
+  "TARGET": "SM_ANALISE",
+  "TARGET_NAME": "SM_ANALISE"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalSelectQuery",
   "SOURCE_NAME": "LocalSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_VIGENCIA",
-  "TARGET_NAME": "UBV_VIGENCIA"
+  "TARGET": "SM_VIGENCIA",
+  "TARGET_NAME": "SM_VIGENCIA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_AREA",
-  "TARGET_NAME": "UBV_AREA"
+  "TARGET": "SM_AREA",
+  "TARGET_NAME": "SM_AREA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_MATERIAL",
-  "TARGET_NAME": "UBV_MATERIAL"
+  "TARGET": "SM_MATERIAL",
+  "TARGET_NAME": "SM_MATERIAL"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_EQUIPAMENTO",
-  "TARGET_NAME": "UBV_EQUIPAMENTO"
+  "TARGET": "SM_EQUIPAMENTO",
+  "TARGET_NAME": "SM_EQUIPAMENTO"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_LOCAL_AMOSTRA",
-  "TARGET_NAME": "UBV_LOCAL_AMOSTRA"
+  "TARGET": "SM_LOCAL_AMOSTRA",
+  "TARGET_NAME": "SM_LOCAL_AMOSTRA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_EQUIPAMENTO_MATERIAL",
-  "TARGET_NAME": "UBV_EQUIPAMENTO_MATERIAL"
+  "TARGET": "SM_EQUIPAMENTO_MATERIAL",
+  "TARGET_NAME": "SM_EQUIPAMENTO_MATERIAL"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_ANALISE",
-  "TARGET_NAME": "UBV_ANALISE"
+  "TARGET": "SM_ANALISE",
+  "TARGET_NAME": "SM_ANALISE"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaPassadoSelectQuery",
   "SOURCE_NAME": "LocalVigenciaPassadoSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_VIGENCIA",
-  "TARGET_NAME": "UBV_VIGENCIA"
+  "TARGET": "SM_VIGENCIA",
+  "TARGET_NAME": "SM_VIGENCIA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/global/Queries/LocalVigenciaSelectQuery",
@@ -25636,8 +25636,8 @@
   "SOURCE_NAME": "JustificativaSelectQuery",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_JUSTIFICATIVA",
-  "TARGET_NAME": "UBV_JUSTIFICATIVA"
+  "TARGET": "SM_JUSTIFICATIVA",
+  "TARGET_NAME": "SM_JUSTIFICATIVA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/RBD/Queries/JustificativaUpdateQuery",
@@ -33516,8 +33516,8 @@
   "SOURCE_NAME": "WebService_Safra_Plano",
   "EDGES": "SELECT",
   "TARGET_TYPE": "TABLE",
-  "TARGET": "UBV_PLANO_SAFRA",
-  "TARGET_NAME": "UBV_PLANO_SAFRA"
+  "TARGET": "SM_PLANO_SAFRA",
+  "TARGET_NAME": "SM_PLANO_SAFRA"
 }, {
   "SOURCE_TYPE": "TQSQ",
   "SOURCE": "SaoMartinho/WebService/Queries/WebService_Safra_Real",
